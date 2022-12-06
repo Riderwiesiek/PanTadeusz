@@ -38,11 +38,11 @@
                 </ul>
                 <div class="col-8">
                     <?php
-                        if (isset($_GET['k]'])) {
+                        if (isset($_GET['k'])) {
                             $k = $_GET['k'];
                             include_once("k$k.html");
                         } else{
-                            print ('<ing src="./Pan_Tadeusz.jpg" alt="Pan Tadeusz">');
+                            print ('<img src="./pan_tadeusz.jpg" alt="Pan Tadeusz">');
                         }
                     ?>
 
